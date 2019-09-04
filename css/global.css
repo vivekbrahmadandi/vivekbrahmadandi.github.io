@@ -1,0 +1,59 @@
+body{
+	font-family: Calibri, sans-serif;
+	background-image: url("images/background.jpg");
+}
+
+.header{
+	margin-bottom: 2em;
+	margin-top: 2em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.header-tab{
+	border-radius: 0px;
+	color: #4d4d4d;
+	font-size: 18px;
+}
+
+.header-tab-active{
+	border-bottom: 3px solid #007bff;
+	font-weight: bold;
+	color: #007bff;
+}
+
+.profile-picture{
+	height: 200px;
+	width: 170px;
+	box-shadow: 0px 0px 5px 5px #f2f2f2;
+}
+
+.company-logo{
+	height: 130px;
+	width: 150px;
+	box-shadow: 0px 0px 5px 5px #f2f2f2;
+	padding: 1em;
+}
+
+.content{
+	margin-top: 4em;
+}
+
+.social-logos-contianer{
+	margin-top: 4em;
+	margin-bottom: 2em;
+}
+
+.social-logo{
+	margin-top: 5px;
+	margin-left:10px;
+	margin-right:10px;
+	height:30px;
+	width:30px;
+}
+
+.exp-cell{
+	border-bottom: 1px solid grey;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
