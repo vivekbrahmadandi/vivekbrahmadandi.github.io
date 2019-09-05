@@ -17,14 +17,14 @@ body{
 }
 
 .header-tab-active{
-	border-bottom: 3px solid #007bff;
+	border-bottom: 3px solid #165eb7;
 	font-weight: bold;
-	color: #007bff;
+	color: #165eb7;
 }
 
 .profile-picture{
-	height: 200px;
-	width: 170px;
+	height: 300px;
+	width: 250px;
 	box-shadow: 0px 0px 5px 5px #f2f2f2;
 }
 
@@ -54,6 +54,23 @@ body{
 
 .exp-cell{
 	border-bottom: 1px solid grey;
-	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.tech-item{
+	margin-left: 1em;
+}
+
+a {
+	color: #165eb7;
+}
+
+a.btn-outline-primary{
+	color: #165eb7;
+	border-color: #165eb7;
+}
+
+a.btn-outline-primary:hover{
+	background-color: #165eb7;
 }
